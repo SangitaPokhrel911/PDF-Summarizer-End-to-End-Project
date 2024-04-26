@@ -4,3 +4,16 @@ You can see the whole description and ideas in this medium blog: https://medium.
 
 Please create .env file and load your OPENAI_API_KEY as
 OPENAI_API_KEY = 'Your Api Key'
+
+Using Poetry
+```bash
+$ pip install poetry
+$ poetry install 
+```
+Run the program
+
+```bash
+poetry run streamlit run app.py
+```
+
+Open Web browser http://localhost:8501
